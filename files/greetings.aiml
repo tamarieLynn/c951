@@ -4,4 +4,8 @@
 	    <pattern>HI</pattern>
 	    <template>Hello!</template>
 	</category>
+<category>
+    <pattern></pattern>
+    <template></template>
+</category>
 </aiml>

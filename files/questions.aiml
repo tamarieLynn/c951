@@ -76,9 +76,18 @@
         </button>
         <button>
             <text>No</text>
-            <postback>Career Finder</postback>
+            <postback>Find a career</postback>
         </button>
     </template>
+</category>
+<category>
+    <pattern>Hi
+</pattern>
+    <template>Hi, welcome to the career finder. Type Career Finder to begin.</template>
+</category>
+<category>
+    <pattern>Click node to edit pattern</pattern>
+    <template>Click node to edit template</template>
 </category>
 </aiml>
 
