@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+<category>
+    <pattern>Career Finder</pattern>
+    <template>Hello! You will be answering some questions to help you find a career you will love.
+        <button>
+            <text>Start the question</text>
+            <postback>Find a career</postback>
+        </button>
+    </template>
+</category>
+<!--WEB DEVELOPER-->
+<category>
+    <pattern>Find a career</pattern>
+    <template>Do you love to create websites and applications using a variety of 
+    programming tools?
+        <button>
+            <text>Yes, will take you to career link.</text>
+            <url>https://www.computerscience.org/careers/web-developer/</url>
+        </button>
+        <button>
+            <text>No</text>
+            <postback>IT security specialist </postback>
+        </button>
+    </template>
+</category>
+<!--IT security specialist-->
+<category>
+    <pattern>IT security specialist</pattern>
+    <template>Do you love to create and monitor systems to protect a company's data and networks?
+        <button>
+            <text>Yes, will take you to career link.</text>
+            <url>https://www.indeed.com/career-advice/finding-a-job/what-it-security-specialist-do</url>
+        </button>
+        <button>
+            <text>No</text>
+            <postback>Computer programmer</postback>
+        </button>
+    </template>
+</category>
+<!--Computer programmer-->
+<category>
+    <pattern>Computer programmer</pattern>
+    <template>Do you love to write and test code in a variety of coding languages?
+        <button>
+            <text>Yes, will take you to career link.</text>
+            <url>https://www.computerscience.org/careers/computer-programmer/</url>
+        </button>
+        <button>
+            <text>No</text>
+            <postback>Systems analyst</postback>
+        </button>
+    </template>
+</category>
+<!--Systems analyst-->
+<category>
+    <pattern>Systems analyst</pattern>
+    <template>Do you love to implement improvements for security, user experience and functionality?
+        <button>
+            <text>Yes, will take you to career link.</text>
+            <url>https://www.computerscience.org/careers/systems-analyst/</url>
+        </button>
+        <button>
+            <text>No</text>
+            <postback>Software engineer</postback>
+        </button>
+    </template>
+</category>
+<!--Software engineer-->
+<category>
+    <pattern>Software engineer</pattern>
+    <template>Do you love to design, develop, analyze, and improve systems and applications according to the needs of the client or user?
+        <button>
+            <text>Yes, will take you to career link.</text>
+            <url>https://www.computerscience.org/careers/software-engineer/</url>
+        </button>
+        <button>
+            <text>No</text>
+            <postback>Career Finder</postback>
+        </button>
+    </template>
+</category>
+</aiml>
+
+
+
+
+

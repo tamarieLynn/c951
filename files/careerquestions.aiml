@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+<!--<category>-->
+<!--  <pattern>START CAREER SELECTION</pattern>-->
+<!--  <template>Hi there! Let's find the best career option for you. Do you love to create websites and applications using a variety of programming tools?</template>-->
+<!--</category>-->
+<!--<button>-->
+<!--    <text>YES</text>-->
+<!--    <postback>Web developer sounds like a great fit for you!</postback>-->
+<!--</button>-->
+<!--<button>-->
+<!--    <text>NO</text>-->
+<!--    <postback>Okay. Let's explore other options. Do you love to create and monitor systems to protect a company's data and networks?</postback>-->
+<!--</button>-->
+
+<!--<category>-->
+<!--  <pattern>*</pattern>-->
+<!--  <template>Alright. How about computer programming? Do you love to write and test code in a variety of coding languages?</template>-->
+<!--</category>-->
+
+<!--<category>-->
+<!--  <pattern>YES</pattern>-->
+<!--  <template>Computer programming could be a great fit for you!</template>-->
+<!--</category>-->
+
+<!--<category>-->
+<!--  <pattern>NO</pattern>-->
+<!--  <template>Got it. Let's explore another option. Do you love to implement improvements for security, user experience, and functionality?</template>-->
+<!--</category>-->
+
+<!--<category>-->
+<!--  <pattern>YES</pattern>-->
+<!--  <template>Systems analyst sounds like a career you might enjoy!</template>-->
+<!--</category>-->
+
+<!--<category>-->
+<!--  <pattern>NO</pattern>-->
+<!--  <template>Okay. Last question. Do you love to design, develop, analyze, and improve systems and applications according to the needs of the client or user?</template>-->
+<!--</category>-->
+
+<!--<category>-->
+<!--  <pattern>YES</pattern>-->
+<!--  <template>Software engineering might be the perfect career choice for you!</template>-->
+<!--</category>-->
+
+<!--<category>-->
+<!--  <pattern>NO</pattern>-->
+<!--  <template>Based on your responses, I'd recommend exploring other career options. Feel free to reach out if you need more guidance!</template>-->
+<!--</category>-->
+
+</aiml>
